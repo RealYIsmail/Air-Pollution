@@ -1,0 +1,33 @@
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Station">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Record">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:short" name="SiteID"/>
+              <xs:element type="xs:int" name="ts"/>
+              <xs:element type="xs:float" name="NOx"/>
+              <xs:element type="xs:float" name="NO2"/>
+              <xs:element type="xs:float" name="NO"/>
+              <xs:element type="xs:string" name="PM10"/>
+              <xs:element type="xs:string" name="NVPM10"/>
+              <xs:element type="xs:string" name="VPM10"/>
+              <xs:element type="xs:string" name="NVPM2.5"/>
+              <xs:element type="xs:string" name="PM2.5"/>
+              <xs:element type="xs:string" name="VPM2.5"/>
+              <xs:element type="xs:string" name="CO"/>
+              <xs:element type="xs:string" name="O3"/>
+              <xs:element type="xs:string" name="SO2"/>
+              <xs:element type="xs:string" name="Location"/>
+              <xs:element type="xs:float" name="lat"/>
+              <xs:element type="xs:float" name="long"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
